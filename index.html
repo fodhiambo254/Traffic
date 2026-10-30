@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A community proposal for safer, smoother travel through Kayole Junction.">
+	<title>Kayole Moves | Safer journeys start here</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#home" aria-label="Kayole Moves home">
+			<span class="brand-mark" aria-hidden="true">K</span>
+			<span>KAYOLE <b>MOVES</b></span>
+		</a>
+		<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+			<span></span><span></span>
+		</button>
+		<nav class="main-nav" id="main-nav" aria-label="Main navigation">
+			<a href="#traffic-flow">Traffic flow</a>
+			<a href="#challenge">The challenge</a>
+			<a href="#solutions">Our solutions</a>
+			<a class="nav-cta" href="#action">See the plan <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero" id="home">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> A community proposal · Nairobi, Kenya</p>
+				<h1>Make every<br>journey through<br><span>Kayole safer.</span></h1>
+				<p class="hero-intro">Kayole Junction connects our community. Better roads, visible traffic officers and a railway can make the daily journey safer and more reliable for everyone.</p>
+				<a class="button button-dark" href="#solutions">Explore the solutions <span aria-hidden="true">↓</span></a>
+				<div class="hero-note"><span class="note-line"></span><span>Built around the needs of local commuters</span></div>
+			</div>
+			<div class="hero-visual">
+				<img src="https://images.pexels.com/photos/33483282/pexels-photo-33483282.jpeg" alt="Kayole Junction and the surrounding neighborhood">
+				<div class="image-caption"><span class="caption-pulse"></span> KAYOLE JUNCTION <span class="caption-divider">/</span> A BETTER WAY FORWARD</div>
+				<div class="hero-stamp" aria-label="Safer streets, stronger community">
+					<span>SAFER STREETS</span><b>FOR<br>EVERYONE</b><span>✳ &nbsp; KAYOLE</span>
+				</div>
+			</div>
+			<div class="hero-index" aria-hidden="true">01 — 03</div>
+		</section>
+
+		<section class="traffic-section section-wrap" id="traffic-flow" aria-labelledby="traffic-title">
+			<div class="traffic-heading">
+				<div>
+					<p class="eyebrow">KAYOLE JUNCTION / TRAFFIC DATA</p>
+					<h2 id="traffic-title">Traffic flow by time</h2>
+				</div>
+				<p>Vehicle counts and traffic-light status from your Power BI screenshot.</p>
+			</div>
+			<div class="traffic-report">
+				<div class="report-titlebar"><span></span><span>KAYOLE JUNCTION TRAFFIC FLOW</span></div>
+				<div class="report-content">
+					<div class="chart-heading">
+						<h3>Vehicles by time period</h3>
+						<p>SUM OF VEHICLES COUNT</p>
+					</div>
+					<div class="chart-scroll" role="region" aria-label="Vehicle counts by time period; scroll horizontally on small screens" tabindex="0">
+						<div class="bar-chart" role="img" aria-label="Vehicle counts: 850 from 4 to 6 PM, very busy; 700 from 8 to 10 AM, busy; 600 from 2 to 4 PM, busy; 550 from 6 to 8 PM, busy; 500 from 12 to 2 PM, normal; 450 from 6 to 8 AM, normal; and 350 from 10 AM to 12 PM, normal.">
+							<div class="y-axis"><span>850</span><span>600</span><span>350</span><span>0</span><b>VEHICLES</b></div>
+							<div class="bar-column"><span class="bar-value">850</span><div class="bar-track"><span class="bar very-busy" style="--bar-height: 100%"></span></div><span class="bar-period">4:00–6:00<br>PM</span></div>
+							<div class="bar-column"><span class="bar-value">700</span><div class="bar-track"><span class="bar busy" style="--bar-height: 82%"></span></div><span class="bar-period">8:00–10:00<br>AM</span></div>
+							<div class="bar-column"><span class="bar-value">600</span><div class="bar-track"><span class="bar busy" style="--bar-height: 71%"></span></div><span class="bar-period">2:00–4:00<br>PM</span></div>
+							<div class="bar-column"><span class="bar-value">550</span><div class="bar-track"><span class="bar busy" style="--bar-height: 65%"></span></div><span class="bar-period">6:00–8:00<br>PM</span></div>
+							<div class="bar-column"><span class="bar-value">500</span><div class="bar-track"><span class="bar normal" style="--bar-height: 59%"></span></div><span class="bar-period">12:00–2:00<br>PM</span></div>
+							<div class="bar-column"><span class="bar-value">450</span><div class="bar-track"><span class="bar normal" style="--bar-height: 53%"></span></div><span class="bar-period">6:00–8:00<br>AM</span></div>
+							<div class="bar-column"><span class="bar-value">350</span><div class="bar-track"><span class="bar normal" style="--bar-height: 41%"></span></div><span class="bar-period">10:00 AM–<br>12:00 PM</span></div>
+						</div>
+					</div>
+					<div class="chart-legend" aria-label="Traffic status legend">
+						<span><i class="legend-dot busy-dot"></i>Busy</span>
+						<span><i class="legend-dot normal-dot"></i>Normal</span>
+						<span><i class="legend-dot very-busy-dot"></i>Very busy</span>
+					</div>
+				</div>
+			</div>
+			<p class="report-note">Recreated from the screenshot provided. This chart is not connected to a live Power BI report.</p>
+		</section>
+
+		<section class="challenge section-wrap" id="challenge">
+			<div class="section-heading">
+				<p class="eyebrow">01 / THE CHALLENGE</p>
+				<h2>Getting around<br>shouldn’t be the hard part.</h2>
+			</div>
+			<p class="section-lede">At Kayole Junction, everyday trips are made harder by infrastructure and traffic-control gaps. These are practical issues, and they deserve practical solutions.</p>
+			<div class="issue-grid">
+				<article class="issue-item">
+					<span class="issue-number">01</span>
+					<div class="issue-icon" aria-hidden="true">↗</div>
+					<h3>Roads in poor condition</h3>
+					<p>Damaged and inadequate roads slow movement and make journeys less safe for drivers, pedestrians and passengers.</p>
+				</article>
+				<article class="issue-item">
+					<span class="issue-number">02</span>
+					<div class="issue-icon officer-icon" aria-hidden="true">✳</div>
+					<h3>Too few traffic officers</h3>
+					<p>Without enough officers at busy points, congestion and confusion can build up during peak travel times.</p>
+				</article>
+				<article class="issue-item">
+					<span class="issue-number">03</span>
+					<div class="issue-icon clock-icon" aria-hidden="true">◷</div>
+					<h3>Unmanaged travel times</h3>
+					<p>Uncoordinated traffic flow means delays are difficult to predict and daily commutes take longer than they should.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="solutions" id="solutions">
+			<div class="solutions-top section-wrap">
+				<div>
+					<p class="eyebrow">02 / A BETTER WAY FORWARD</p>
+					<h2>Three changes.<br><span>One smoother journey.</span></h2>
+				</div>
+				<p class="solutions-intro">Invest in the road network, put trained officers where they’re needed, and connect Kayole to rail. Together, these steps can take pressure off the junction.</p>
+			</div>
+			<div class="solution-list">
+				<article class="solution-row section-wrap">
+					<div class="solution-text">
+						<span class="solution-index">01 <i></i> INFRASTRUCTURE</span>
+						<h3>Build and improve<br>the roads.</h3>
+						<p>Repair damaged sections and improve key routes around the junction. Safer, better-connected roads help people and goods move with fewer delays.</p>
+						<a href="#action" class="text-link">A stronger road network <span aria-hidden="true">↗</span></a>
+					</div>
+					<div class="solution-image road-image">
+						<img src="https://images.pexels.com/photos/29667843/pexels-photo-29667843.jpeg" alt="Street scene from Kayole">
+						<span class="image-tag">01 / CONNECT</span>
+					</div>
+				</article>
+				<article class="solution-row section-wrap reverse-row">
+					<div class="solution-text">
+						<span class="solution-index">02 <i></i> TRAFFIC MANAGEMENT</span>
+						<h3>Put more officers<br>on the ground.</h3>
+						<p>Deploy traffic police at key junctions and peak hours to guide road users, manage queues and respond quickly when traffic builds up.</p>
+						<a href="#action" class="text-link">Clearer traffic flow <span aria-hidden="true">↗</span></a>
+					</div>
+					<div class="solution-image officer-image tiktok-post">
+						<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@metroskenya/photo/7658581311707204871" data-video-id="7658581311707204871">
+							<section><a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@metroskenya">@metroskenya</a><p>Motorists warned over intensified traffic police enforcement at Kayole Junction.</p></section>
+						</blockquote>
+					</div>
+				</article>
+				<article class="solution-row section-wrap">
+					<div class="solution-text">
+						<span class="solution-index">03 <i></i> PUBLIC TRANSPORT</span>
+						<h3>Bring rail closer<br>to the community.</h3>
+						<p>Develop a railway connection serving Kayole so more commuters have a dependable alternative to road travel, easing pressure on the junction.</p>
+						<a href="#action" class="text-link">More ways to get there <span aria-hidden="true">↗</span></a>
+					</div>
+					<div class="solution-image rail-image">
+						<img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1100&q=85" alt="Railway tracks stretching into the distance">
+						<span class="image-tag">03 / CONNECT</span>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="action-band" id="action">
+			<div class="action-inner section-wrap">
+				<div>
+					<p class="eyebrow">03 / THE NEXT STEP</p>
+					<h2>Let’s get Kayole<br>moving forward.</h2>
+				</div>
+				<div class="action-copy">
+					<p>Safer roads and better transport start with listening to the people who use them every day. Share this proposal and keep the conversation moving.</p>
+					<a class="button button-light" href="mailto:?subject=Safer%20journeys%20through%20Kayole&body=Let%E2%80%99s%20support%20better%20roads%2C%20more%20traffic%20officers%20and%20rail%20for%20Kayole%20Junction.">Share the proposal <span aria-hidden="true">↗</span></a>
+				</div>
+				<span class="action-mark" aria-hidden="true">K</span>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">K</span><span>KAYOLE <b>MOVES</b></span></a>
+		<p>A safer, smoother Kayole Junction starts with us.</p>
+		<a class="back-top" href="#home">BACK TO TOP ↑</a>
+	</footer>
+	<script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>
